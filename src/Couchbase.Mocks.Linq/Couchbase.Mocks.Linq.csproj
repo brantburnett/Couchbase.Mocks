@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.5;netstandard2.0</TargetFrameworks>
+
+    <NetStandardImplicitPackageVersion>2.0.1</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Linq2Couchbase" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Couchbase.Mocks\Couchbase.Mocks.csproj" />
+  </ItemGroup>
+
+</Project>
